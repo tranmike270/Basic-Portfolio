@@ -13,7 +13,7 @@ h1 h2 h3 h4 h5 h6 {
 /*
 CSS styling for the top bar
 */
-.top_bar {
+#top_bar {
     position: relative;
     height:100px;
     background-image: url(../images/headerBack.jpg);
@@ -23,7 +23,7 @@ CSS styling for the top bar
     margin: 0px;
 }
 
-.name {
+#name {
     position: absolute;
     left: 150px;
     bottom: 0px;
@@ -80,7 +80,7 @@ CSS styling for the body
 */
 
 
-.wrapper {
+#wrapper {
     position:relative;
     background-image: url(../images/backgroundPatternWrap.jpg);
     height: 800px;
@@ -88,7 +88,7 @@ CSS styling for the body
 
 }
 
-#aboutMeBox {
+#box {
     float:left;
     width: 800px;
     height: 600px;
@@ -98,7 +98,7 @@ CSS styling for the body
     overflow: auto;
 }
 
-.aboutMe {
+#aboutMe {
 
     font-weight: bolder;
     font-size: 35px;
@@ -108,7 +108,7 @@ CSS styling for the body
 
 }
 
-.myPhoto {
+#myPhoto {
     float: left;
     margin: 4px 10px 0px 0px;
 
@@ -129,7 +129,7 @@ CSS styling for the body
     margin-left: 20px;
 }
 
-.connect {
+#connect {
 
     font-weight: bolder;
     font-size: 32px;
@@ -139,10 +139,7 @@ CSS styling for the body
 }
 
 ul.connectMe{
-    
-  
     font-weight: bold;
-   
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -209,7 +206,7 @@ CSS for portfolio box
 
 */
 
-.portfolio {
+#portfolio {
     font-weight: bolder;
     font-size: 35px;
     padding-bottom: 20px;
@@ -244,7 +241,7 @@ CSS for portfolio box
 CSS for contact html starts here
 */
 
-.contact {
+#contact {
     font-weight: bolder;
     font-size: 35px;
     padding-bottom: 20px;
