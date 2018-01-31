@@ -1,0 +1,193 @@
+body {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*
+CSS styling for the top bar
+*/
+.top_bar {
+    position: relative;
+    height:100px;
+    background-image: url(../images/headerBack.jpg);
+    padding: 0px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin: 0px;
+}
+
+.name {
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+    width: 300px;
+    font-weight: bolder;
+    background-image: url(../images/barBackground.jpg);
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 20px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#navigation {
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    background-image: url(../images/barBackground.jpg);
+    width: 600px;
+    font-size: 30px;
+    font-weight: bold;
+ 
+}
+
+ul.top_nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:white;
+}
+
+li.top_navi {
+    float:left;
+}
+
+li.top_navi a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    border-right-style: solid;
+    text-decoration: none;
+    color: white;
+}
+
+li.top_navi a:hover {
+    color: blue;
+}
+
+/*
+CSS styling for the body
+*/
+
+
+.wrapper {
+    position:relative;
+    background-image: url(../images/backgroundPatternWrap.jpg);
+    height: 800px;
+
+
+}
+
+#aboutMeBox {
+    float:left;
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    margin:100px;
+    background-image: url(../images/headerBack.jpg);
+    overflow: auto;
+}
+
+.aboutMe {
+
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+
+}
+
+.myPhoto {
+    float: left;
+    margin: 4px 10px 0px 0px;
+
+}
+#aboutContent {
+    line-height: 35px;
+    font-size: 25px;
+}
+
+#connectBox {
+
+    float: left;
+    background-image: url(../images/headerBack.jpg);
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    margin: 100px;
+    margin-left: 20px;
+}
+
+.connect {
+
+    font-weight: bolder;
+    font-size: 32px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid black;
+    margin-bottom: 18px;
+}
+
+ul.connectMe{
+    
+  
+    font-weight: bold;
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.connectMe {
+    float:left;
+}
+
+li.connectMe a {
+
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 18px;
+    margin-top: 40px;
+}
+
+li.connectMe a:hover {
+    color: blue;
+}
+
+.logo {
+
+    width: 75px;
+  
+}
+
+/* 
+CSS stylesheet for footer
+*/
+
+footer {
+    position:relative;
+    height:100px;
+    width: 100%;
+    background-color: grey;
+    padding: 0px;
+    border: 0px;
+    border-top: 5px solid white;
+    margin: 0px;
+
+}
+
+#foot {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+
+
+}
